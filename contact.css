@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px;
+    background-color: rgb(181, 181, 182);
+}
+main
+    {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+ul {
+    list-style-type: none;
+    margin:0px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #333;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: #111;
+  }
+  img
+  {
+    height: 47px;
+    width: 200px;
+  }
+
+  img:hover
+  {
+    cursor:pointer;
+  }
+  h5
+        {
+            font-size: 50;
+            background-color:rgb(68, 44, 68);
+            font-family:Arial, Helvetica, sans-serif;
+            background-size: 100%;
+            margin: 0;
+            padding: 20px;
+            text-shadow: 1px 1px rgb(126, 125, 124);
+            color:rgb(216, 225, 148);
+        }
+        main h3
+        {
+            font-size: 50;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color:rgb(216, 225, 148);
+            text-shadow: 2px 2px 8px rgb(68, 44, 68) ;
+            margin-bottom: 0;
+        }
+ main p
+ {
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    border: 5px groove #333;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+        .bottom
+        {
+            background-color: #333;
+            padding: 15px;
+        }
+        div p
+        {
+            font-size: 12;
+        }
